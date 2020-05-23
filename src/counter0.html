@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+
+    <script>
+
+      let counter = 0; // Efine a variable
+
+      function count() {
+        counter++;
+        document.querySelector('#counter').innerHTML = counter;
+      }
+
+    </script>
+
+  </head>
+  <body>
+    <h1 id="counter">0</h1>
+    <button onclick="count()">CLick here!</button>
+  </body>
+</html>
